@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medical AR Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Medical AR Viewer</h1>
+
+  <button onclick="openAR('https://go.echo3d.co/nUAX')">🧠 Brain</button>
+  <button onclick="openAR('https://go.echo3d.co/o8cq')">🩺 Kidney</button>
+  <button onclick="openAR('https://go.echo3d.co/gJte')">🩺 Hip Bone</button>
+  <button onclick="openAR('https://go.echo3d.co/sVV2')">🦷 Teeth</button>
+  <button onclick="openAR('https://go.echo3d.co/Yzgd')">💀 Skull</button>
+
+  <script>
+    function openAR(link) {
+      window.open(link, '_blank');
+    }
+  </script>
+
+</body>
+</html>
